@@ -1,0 +1,25 @@
+plugins {
+    id "java"
+    id "org.springframework.boot"   version "2.4.5"
+}
+
+group = "com.github.gregwhitaker"
+version = "0.1.0"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Library module and versions are defined in /gradle/libs.versions.toml
+    implementation platform(libs.springboot.bom)
+
+    implementation libs.springboot.starter.actuator
+    implementation libs.springboot.starter.web
+
+    testImplementation libs.springboot.starter.test
+}
+
+test {
+    useJUnitPlatform()
+}

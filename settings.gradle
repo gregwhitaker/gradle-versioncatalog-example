@@ -1,0 +1,8 @@
+plugins {
+    id "com.gradle.enterprise"  version "3.6.1"
+}
+
+// Version catalogs are currently an incubating feature and need to be activated via feature flag.
+enableFeaturePreview("VERSION_CATALOGS")
+
+rootProject.name = 'gradle-versioncatalog-example'
