@@ -1,4 +1,6 @@
 # gradle-versioncatalog-example
+[![Build](https://github.com/gregwhitaker/gradle-versioncatalog-example/actions/workflows/gradle.yml/badge.svg)](https://github.com/gregwhitaker/gradle-versioncatalog-example/actions/workflows/gradle.yml)
+
 An example of defining Gradle dependencies with a [version catalog](https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog-declaration).
 
 ## Prerequisites
